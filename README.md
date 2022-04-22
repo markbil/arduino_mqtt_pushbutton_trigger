@@ -10,7 +10,6 @@ An MQTT Client that publishes a message upon push-button trigger
    - every time a button is "pressed" (for longer than the defined debounce time) the controller publishes a defined MQTT message to the defined server. Feedback on successfull execution is provided via LEDs
  
 * Utilised source code and libraries:
-   - Ethernet Shield: 
    - Button Debounce: https://docs.arduino.cc/built-in-examples/digital/Debounce
    - PubSubClient:
      - https://github.com/knolleary/pubsubclient
